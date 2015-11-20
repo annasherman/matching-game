@@ -1,0 +1,122 @@
+$font: 'Open Sans', sans-serif;
+
+.gameboard{
+
+  border: 1px gray solid;
+  border-radius: 3px;
+  // height: 500px;
+  width: 60%;
+  background-color: rgba(241, 241, 241, 0.42);
+  margin: 0 auto;
+  position: relative;
+  float: right;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+#startGame{
+  // font-size: 1rem;
+  // font-family: $font;
+  // border-radius: 3px;
+  // background-color:
+    background-color: rgba(63, 65, 64, 0.93);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:3px;
+    color: rgba(53, 153, 78, 0.73);
+    font-family: 'Oswald';
+    font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px dotted;
+    margin-left: 5%;
+    width: 25%;
+}
+
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   height: 40px;
+   width: 25%;
+   font-size: .7rem;
+   margin-top: 2%;
+   margin-bottom: 0;
+   margin-left: 5%;
+   padding-left: 1%;
+}
+
+header{
+  float: right;
+  text-align: left;
+  margin: 0 auto;
+  display: block;
+  padding-left: 5%;
+  padding-top: 3%;
+  height: 50px;
+  margin-bottom: 5px;
+  width: 60%;
+  padding-right: 3%;
+  font-family: $font;
+}
+
+body{
+  background-color: white;
+  padding-top: 2%;
+}
+
+.cards{
+  // padding: 1%;
+  border-radius: 3px;
+  position: relative;
+  display: inline-block;
+  height: 62px;
+  width: 15%;
+  margin: .5%;
+  border: 1px black solid;
+  background-color: white;
+}
+
+.cards:hover{
+  background-color: rgba(163, 195, 152, 0.6);
+}
+
+.scorebar{
+  display: inline-block;
+  float: left;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-left: 5%;
+  // border: 3px black solid;
+  background: white;
+  height: 300px;
+  width: 15%;
+
+}
+
+#playerOneScore, #playerTwoScore, .playerTurn{
+  display: inline-block;
+  height: 60px;
+  width: 100%;
+  border: 1px solid rgba(102, 102, 102, 0.52);
+  border-radius: 5px;
+  padding-top: 5%;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+
+
+span{
+  float: left;
+  text-align: center;
+  padding-top: 10px;
+  display: inline-block;
+  font-family: $font;
+  font-size: .90rem;
+  height: 52px;
+  width: 100%;
+}
